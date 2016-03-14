@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Code formatter project
+${licensePrefix}CS 4481
+<#if licenseLast??>
+${licenseLast}
+</#if>

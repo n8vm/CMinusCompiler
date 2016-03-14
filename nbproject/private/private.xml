@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/GUI.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/ast/Mutable.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/formatter/Compiler.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/ast/Call.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/formatter/SymbolTable.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/ast/ExpressionStatement.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/ast/FunDeclaration.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/ast/CompoundStatement.java</file>
+            <file>file:/C:/Users/Nate/Google%20Drive/Homework/Programming/Compilers/project4/src/formatter/SymbolInfo.java</file>
+        </group>
+    </open-files>
+</project-private>

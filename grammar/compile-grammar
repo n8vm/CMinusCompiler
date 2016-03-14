@@ -1,0 +1,26 @@
+#! /bin/bash
+
+test=0
+
+if [[ test -eq 0 ]]; then
+    # Run this line when your grammar is complete
+    java -jar /usr/local/lib/antlr-4.5.1-complete.jar -o ../src/parser -package parser Cminus.g4
+    
+else
+    # The following script builds and tests your grammar
+    # Generate Java code
+    java -jar /usr/local/lib/antlr-4.5.1-complete.jar -o test-code Cminus.g4
+
+    if [[ $? != 0 ]]; then exit $?; fi
+
+    # Compile Java code
+    cd test-code
+    javac Cminus*.java
+
+    if [[ $? != 0 ]]; then exit $?; fi
+
+    # tests
+    java org.antlr.v4.gui.TestRig Cminus program -gui ../../data/test1.c
+    cd ..
+
+fi
